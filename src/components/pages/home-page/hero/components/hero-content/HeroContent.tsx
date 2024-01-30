@@ -37,7 +37,7 @@ const HeroContent = () => {
                     variants={slideInFromLeft(0.8)}
                     className={'text-lg text-gray-400 my-5 max-w-[600px]'}
                 >
-                    &apos;m a Front-End Software Engineer with experience in WebSite.
+                    &apos;Im a Front-End Software Engineer with experience in WebSite.
                     Check out my projects and skills.
                 </motion.p>
                 <motion.a
