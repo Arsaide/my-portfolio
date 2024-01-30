@@ -37,7 +37,7 @@ const HeroContent = () => {
                     variants={slideInFromLeft(0.8)}
                     className={'text-lg text-gray-400 my-5 max-w-[600px]'}
                 >
-                    &apos;I'm a Front-End Software Engineer with experience in WebSite.
+                    &apos;m a Front-End Software Engineer with experience in WebSite.
                     Check out my projects and skills.
                 </motion.p>
                 <motion.a
@@ -52,7 +52,7 @@ const HeroContent = () => {
                 className={'w-full h-full flex justify-center items-center'}
             >
                 <Image
-                    src={'/iconss.svg'}
+                    src={'/mainIconsdark.svg'}
                     alt={'work icons'}
                     height={650}
                     width={650}/>
