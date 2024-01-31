@@ -7,7 +7,7 @@ const Skills = () => {
     return (
         <section
             id={'skills'}
-            className={'flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden py-20'}
+            className={'flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-[20rem] py-[11rem]'}
             style={{transform: "scale(.9)"}}
         >
             <SkillText/>
@@ -32,10 +32,7 @@ const Skills = () => {
                         loop
                         muted
                         autoPlay
-                        src={'/cards-video.webm'}
-
-                    >
-
+                        src={'/cards-video.webm'}>
                     </video>
                 </div>
             </div>
