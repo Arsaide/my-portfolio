@@ -24,9 +24,9 @@ const Skills = () => {
             </div>
 
             <div className={'w-full h-full absolute'}>
-                <div className={'w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover'}>
+                <div className={'video-container'}>
                     <video
-                        className={'w-full h-auto'}
+                        className={'video-responsive'}
                         preload={'false'}
                         playsInline
                         loop
