@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import StarsCanvas from "@/components/pages/home-page/star-background/StarBackground";
+import StarsCanvas from "@/components/pages/home-page/stars-canvas-bg/StarsCanvas";
 import Navbar from "@/components/layout/navbar/Navbar";
 import Footer from "@/components/layout/footer/Footer";
 

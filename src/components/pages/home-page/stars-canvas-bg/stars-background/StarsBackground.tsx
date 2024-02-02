@@ -1,15 +1,13 @@
-"use client";
-
-import React, { useState, useRef, Suspense } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
+import React, { useState, useRef } from "react";
+import { useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 // @ts-ignore
 import * as random from "maath/random/dist/maath-random.esm";
 
-const StarBackground = (props: any) => {
+const StarsBackground = (props: any) => {
     const ref: any = useRef();
     const [sphere] = useState(() =>
-        random.inSphere(new Float32Array(5000), { radius: 1.2 })
+        random.inSphere(new Float32Array(1500), { radius: 1.2 })
     );
 
     useFrame((state, delta) => {
@@ -39,14 +37,4 @@ const StarBackground = (props: any) => {
     )
 };
 
-const StarsCanvas = () => (
-    <div className="w-full h-auto fixed inset-0 z-[20]">
-        <Canvas camera={{position: [0, 0, 1]}}>
-            <Suspense fallback={null}>
-                <StarBackground />
-            </Suspense>
-        </Canvas>
-    </div>
-)
-
-export default StarsCanvas;
+export default StarsBackground
