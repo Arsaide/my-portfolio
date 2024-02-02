@@ -1,7 +1,7 @@
 import React from 'react';
-import SkillText from "@/components/pages/home-page/skills/skill-text/SkillText";
-import SkillVideo from "@/components/pages/home-page/skills/skill-video/SkillVideo";
-import SkillIcons from "@/components/pages/home-page/skills/skills-icons/SkillIcons";
+import SkillText from "@/components/pages/home-page/skills/components/skill-text/SkillText";
+import SkillVideo from "@/components/pages/home-page/skills/components/skill-video/SkillVideo";
+import SkillIcons from "@/components/pages/home-page/skills/components/skills-icons/SkillIcons";
 
 const Skills = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import {Frontend_skill} from "../../../../../../constans";
-import SkillDataProvider from "@/components/pages/home-page/skills/skill-data-provider/SkillDataProvider";
+import {Frontend_skill} from "../../../../../../../constans";
+import SkillDataProvider from "@/components/pages/home-page/skills/components/skill-data-provider/SkillDataProvider";
 
 const SkillIcons = () => {
     return (
