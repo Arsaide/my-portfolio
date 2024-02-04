@@ -4,10 +4,10 @@ import HeroVideo from "@/components/pages/home-page/hero/components/hero-video/H
 
 const Hero = () => {
     return (
-        <div className="relative flex flex-col h-full w-full">
+        <section id={'about'} className="relative flex flex-col h-full w-full">
             <HeroVideo/>
             <HeroContent/>
-        </div>
+        </section>
     );
 };
 

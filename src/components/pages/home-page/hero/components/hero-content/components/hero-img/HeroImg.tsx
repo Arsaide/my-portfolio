@@ -2,6 +2,7 @@ import React from 'react';
 import {slideInFromRight} from "@/utils/motion";
 import Image from "next/image";
 import {motion} from "framer-motion";
+import {skillsGridImg} from "@/media/images";
 
 function HeroImg() {
     return (
@@ -10,7 +11,7 @@ function HeroImg() {
             className={'w-full h-full flex justify-center items-center'}
         >
             <Image
-                src={'/mainIconsdark.svg'}
+                src={skillsGridImg}
                 alt={'work icons'}
                 height={650}
                 width={650}/>
